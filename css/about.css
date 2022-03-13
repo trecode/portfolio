@@ -167,3 +167,28 @@ footer {
 .fa-instagram {
   color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+  .hero-box {
+    flex-direction: column;
+  }
+
+  .hero-box .left-side {
+    width: 100%;
+  }
+
+  .hero-box .left-side img {
+    width: 50%;
+  }
+
+  .hero-box .right-side {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-box .left-side img {
+    width: 100%;
+  }
+}
