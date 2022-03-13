@@ -50,6 +50,8 @@ header {
 .projects {
   background-color: white;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-box {
@@ -87,25 +89,44 @@ header {
   font-size: 24px;
 }
 
-.prototypes {
+.project-description {
   display: flex;
   margin-top: 60px;
   margin-bottom: 100px;
+  flex-direction: column;
 }
 
-.prototypes h4 {
+.project-description h4 {
   color: black;
   margin-bottom: 20px;
-  font-style: italic;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.prototypes p {
-  color: black;
-  margin-top: 20px;
 
+.project-description p {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-size: 24px;
   font-weight: lighter;
+  padding-right: 50%;
+}
+
+.project-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  padding: 0px 80px;
+}
+
+.project-block img {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .low-fi {
