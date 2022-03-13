@@ -34,17 +34,20 @@
     </div>
   </header>
   <div class="form-container">
-    <form action="#">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <form action="https://formsubmit.co/8acc5f2845745222311ce839943f31e0" method="POST">
+      <label for="firstname-input">First Name</label>
+      <input type="text" id="firstname-input" name="firstname" placeholder="Your first name" required>
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="lastname-input">Last Name</label>
+      <input type="text" id="lastname-input" name="lastname" placeholder="Your last name" required>
 
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <label for="email-input">Email</label>
+      <input type="email" id="email-input" name="email" placeholder="Your email" required>
 
-      <a class="button" href="#">submit</a>
+      <label for="message-input">Message</label>
+      <textarea id="message-input" name="message" placeholder="Your message" required></textarea>
+
+      <button class="button" type="submit">Send</button>
     </form>
   </div>
   <footer>

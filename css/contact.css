@@ -189,7 +189,12 @@ form input {
   font-family: 'Lato', sans-serif;
 }
 
+form textarea {
+  height: 200px;
+}
+
 input[type='text'],
+input[type='email'],
 select,
 textarea {
   width: 100%;
@@ -203,6 +208,7 @@ textarea {
 }
 
 .button {
+  font-family: 'Lato', sans-serif;
   background-color: #ffffff;
   border: 3px solid #8702d6;
   border-radius: 50px;
