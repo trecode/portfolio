@@ -189,6 +189,7 @@ footer {
 @media only screen and (max-width: 992px) {
   .project-box {
     flex-direction: column;
+    padding-top: 0px;
   }
 
   .project-block p {
@@ -204,5 +205,36 @@ footer {
     width: 100%;
     padding: 20px;
     margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-description {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .block-left {
+    margin: 0px;
+  }
+
+  .block-left h4 {
+    padding: 20px;
+  }
+
+  .block-left p {
+    padding: 20px;
+  }
+
+  .block-right {
+    margin: 0px;
+  }
+
+  .block-right h4 {
+    padding: 20px;
+  }
+
+  .block-right p {
+    padding: 20px;
   }
 }
