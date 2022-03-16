@@ -170,20 +170,6 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 400px) {
-  .project-box {
-    display: block;
-  }
-
-  .project-text-box {
-    padding: 8px;
-  }
-
-  .project-city .project-img-box {
-    display: none;
-  }
-}
-
 .button {
   background-color: #ffffff;
   border: 3px solid #8702d6;
@@ -226,14 +212,27 @@ footer {
 
   .project-img-box {
     width: 100%;
+    order: -1;
   }
 
   .project-text-box {
     width: 100%;
     margin: 0px;
   }
+}
 
-  .project-img-box {
-    order: -1;
+@media only screen and (max-width: 400px) {
+  .hero-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-box .left-side {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .project-text-box {
+    padding: 20px;
   }
 }
