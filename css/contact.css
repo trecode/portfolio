@@ -234,3 +234,27 @@ textarea {
   border-color: #6d04ab;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .form-container {
+    margin: 0 15%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  .form-container {
+    margin: 0 10%;
+  }
+
+  form textarea {
+    height: 150px;
+  }
+}
