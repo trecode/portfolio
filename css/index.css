@@ -56,6 +56,17 @@ header {
   transition: background-color 0.4s ease-out, color 0.4s ease-out;
 }
 
+label {
+  color: white;
+  font-size: 25px;
+  line-height: 17px;
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
 .hero-box {
   display: flex;
   padding-top: 150px;
@@ -197,7 +208,48 @@ footer {
   color: white;
 }
 
+@media only screen and (max-width: 400px) {
+  .hero-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-box .left-side {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .project-text-box {
+    padding: 20px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: none;
+    margin-top: 20px;
+  }
+
+  .nav .nav-menu a {
+    display: block;
+    margin: 0px;
+    text-align: center;
+  }
+
+  #toggle:checked + .nav-menu {
+    display: block;
+  }
+
   header {
     padding-bottom: 0px;
   }
@@ -221,18 +273,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .hero-box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .hero-box .left-side {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .project-text-box {
-    padding: 20px;
+@media only screen and (max-width: 992px) {
+  .nav .nav-menu a {
+    padding: 10px 5px;
   }
 }
