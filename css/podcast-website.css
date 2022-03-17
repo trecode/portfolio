@@ -172,13 +172,39 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+  .project-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .project-block {
+    margin: 0px;
+    padding-bottom: 50px;
+  }
+
+  .project-block p {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .project-box {
     display: block;
+    padding: 0px;
+  }
+
+  .project-img-box {
+    width: 100%;
+    margin: 0px;
   }
 
   .project-text-box {
-    padding: 8px;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
   }
 
   .project-city .project-img-box {
