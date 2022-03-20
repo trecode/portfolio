@@ -209,6 +209,34 @@ footer {
   color: white;
 }
 
+.projects-button {
+  background-color: #8702d6;
+  border: 3px solid #8702d6;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  background-color: #6d04ab;
+  border: 3px solid #6d04ab;
+  color: white;
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.projects-button:focus {
+  background-color: #6d04ab;
+  border-color: 6d04abd8;
+  color: white;
+}
+
 @media only screen and (max-width: 400px) {
   .nav {
     padding: 0px;
@@ -231,7 +259,7 @@ footer {
   }
 
   .hero-box .left-side p {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.3;
   }
 
