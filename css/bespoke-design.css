@@ -264,4 +264,18 @@ footer {
   .project-description {
     margin-bottom: 0px;
   }
+
+  .project-block {
+    padding: 20px;
+  }
+
+  .project-block img {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav {
+    padding: 0;
+  }
 }

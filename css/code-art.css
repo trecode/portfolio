@@ -96,9 +96,9 @@ header {
 .project-description h4 {
   color: black;
   margin-bottom: 20px;
-  font-style: italic;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .project-description p {
@@ -208,7 +208,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .project-description {
     flex-direction: column;
     margin-bottom: 50px;

@@ -46,7 +46,7 @@ header {
 .nav .nav-menu a {
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 5px;
   margin-left: 20px;
 }
 
@@ -85,12 +85,13 @@ label {
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 50px;
-  line-height: 2;
+  line-height: 1;
 }
 
 .hero-box .left-side p {
   color: white;
   margin-bottom: 30px;
+  margin-top: 30px;
   font-size: 28px;
   font-weight: lighter;
 }
@@ -226,7 +227,6 @@ footer {
 
   .hero-box .left-side h2 {
     font-size: 50px;
-    line-height: 1;
     padding-bottom: 20px;
   }
 
@@ -237,6 +237,10 @@ footer {
 
   .project-text-box {
     padding: 20px;
+  }
+
+  .project-text-box h3 {
+    font-size: 24px;
   }
 }
 
@@ -270,6 +274,10 @@ footer {
     padding-bottom: 0px;
   }
 
+  .hero-box .left-side {
+    margin-left: 0;
+  }
+
   .layer {
     padding-bottom: 0px;
   }
@@ -289,8 +297,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .nav .nav-menu a {
-    padding: 10px 5px;
+@media only screen and (min-width: 992px) {
+  .hero-box .left-side {
+    width: 65%;
   }
 }
