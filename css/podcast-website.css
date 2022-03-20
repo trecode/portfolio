@@ -110,9 +110,9 @@ label {
 .project-description h4 {
   color: black;
   margin-bottom: 20px;
-  font-style: italic;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .project-description p {
@@ -129,7 +129,7 @@ label {
   height: 100%;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   padding: 0px 80px;
 }
 
@@ -183,8 +183,36 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 400px) {
-  .nav {
+@media only screen and (max-width: 1200px) {
+  .project-box {
+    display: block;
+    padding: 0px;
+  }
+
+  .project-img-box {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .project-text-box {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+  }
+
+  .project-city .project-img-box {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .project-block {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .project-block p {
     padding: 0px;
   }
 }
@@ -215,41 +243,18 @@ footer {
     display: block;
   }
 
+  .project-description {
+    margin-bottom: 0px;
+  }
+
   .project-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .project-block {
-    margin: 0px;
-    padding-bottom: 50px;
-  }
-
-  .project-block p {
+@media only screen and (max-width: 400px) {
+  .nav {
     padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .project-box {
-    display: block;
-    padding: 0px;
-  }
-
-  .project-img-box {
-    width: 100%;
-    margin: 0px;
-  }
-
-  .project-text-box {
-    width: 100%;
-    margin: 0px;
-    padding: 20px;
-  }
-
-  .project-city .project-img-box {
-    display: none;
   }
 }
