@@ -40,7 +40,7 @@ header {
 .nav .nav-menu a {
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 5px;
   margin-left: 20px;
 }
 
@@ -48,6 +48,17 @@ header {
   background-color: black;
   color: #8702d6;
   transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+  line-height: 17px;
+  display: none;
+}
+
+#toggle {
+  display: none;
 }
 
 .hero-box {
@@ -188,6 +199,31 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: none;
+    margin-top: 20px;
+  }
+
+  .nav .nav-menu a {
+    display: block;
+    margin: 0px;
+    text-align: center;
+  }
+
+  #toggle:checked + .nav-menu {
+    display: block;
+  }
+
   .hero-box .left-side img {
     width: 100%;
   }
