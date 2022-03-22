@@ -156,6 +156,10 @@ footer {
   .project-text-box {
     padding: 8px;
   }
+
+  .project-text-box p {
+    font-size: 22px;
+  }
 }
 
 .button {

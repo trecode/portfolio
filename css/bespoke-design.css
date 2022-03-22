@@ -321,4 +321,8 @@ footer {
   .nav {
     padding: 0px;
   }
+
+  .project-text-box p {
+    font-size: 22px;
+  }
 }
